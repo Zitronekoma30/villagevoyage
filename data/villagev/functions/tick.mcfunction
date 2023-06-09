@@ -17,7 +17,7 @@ execute as @a[tag=!hasJob] at @s run function villagev:jobs/check_job
 ### Enforce restricitons
 execute as @a[tag=!farmer] at @s run function villagev:restrictions/farming/remove_inedible
 execute as @a[tag=!miner] at @s run function villagev:restrictions/mining/stop_ore
-
+execute as @a[tag=!guard] at @s run function villagev:restrictions/guarding/night_debuff
 
 
 ### Reset detection scores ###
