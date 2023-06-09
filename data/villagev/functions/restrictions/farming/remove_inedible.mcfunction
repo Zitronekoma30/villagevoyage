@@ -1,0 +1,2 @@
+execute as @s if predicate villagev:food_check_main if entity @s[nbt=!{SelectedItem:{tag:{Edible:1b}}}] run item replace entity @s weapon.mainhand with air
+execute as @s if predicate villagev:food_check_off if entity @s[nbt=!{Inventory:[{Slot:-106b, tag:{Edible:1b}}]}] run item replace entity @s weapon.offhand with air

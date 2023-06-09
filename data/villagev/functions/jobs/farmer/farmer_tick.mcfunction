@@ -1,1 +1,1 @@
-execute as @e[distance=..3, type=item, nbt={Item:{id:"minecraft:carrot"}}, sort=nearest] run data merge entity @s {Item:{tag:{Edible:1b}}}
+execute as @e[distance=..3, type=item, sort=nearest] run data merge entity @s {Item:{tag:{Edible:1b}}}

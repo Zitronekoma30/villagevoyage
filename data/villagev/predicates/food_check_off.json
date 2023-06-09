@@ -1,0 +1,20 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "items": [
+          "minecraft:chicken",
+          "minecraft:beef",
+          "minecraft:mutton",
+          "minecraft:porkchop",
+          "minecraft:wheat",
+          "minecraft:melon_slice",
+          "minecraft:carrot",
+          "minecraft:potato"
+        ]
+      }
+    }
+  }
+}
