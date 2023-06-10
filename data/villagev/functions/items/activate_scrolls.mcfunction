@@ -1,1 +1,1 @@
-execute as @s[nbt={Item:{tag:{ScrollName:"Deed"}}}] at @s run function villagev:magic/town_deed 
+execute as @s[nbt={Item:{tag:{ScrollName:"Deed"}}}] at @s run function villagev:towns/town_deed 

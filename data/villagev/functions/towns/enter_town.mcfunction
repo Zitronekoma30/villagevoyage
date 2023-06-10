@@ -1,0 +1,2 @@
+execute as @s[scores={town=0}] at @s run title @s title {"selector":"@e[type=marker, distance=..50, limit=1, sort=nearest]"} 
+execute as @s at @s run scoreboard players operation @s town = @e[type=marker, distance=..50, limit=1, sort=nearest] town

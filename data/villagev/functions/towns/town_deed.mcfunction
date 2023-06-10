@@ -7,4 +7,8 @@ scoreboard players operation @e[distance=..1, limit=1, type=marker] town = %glob
 scoreboard players add @e[distance=..1, limit=1, type=marker] town 1
 scoreboard players operation %global town = @e[distance=..1, limit=1, type=marker] town 
 
+playsound ui.toast.challenge_complete block @a ~ ~ ~
+particle totem_of_undying ~ ~ ~ 0 10 0 0 50
+
+
 kill @s
