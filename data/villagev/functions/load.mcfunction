@@ -1,5 +1,7 @@
+# Player attributes
 scoreboard objectives add uid dummy
 scoreboard objectives add owner dummy
+scoreboard objectives add town dummy
 
 # Using job specific items
 scoreboard objectives add usedSwordWood used:wooden_sword
@@ -20,3 +22,7 @@ scoreboard objectives add mined_coal mined:coal_ore
 scoreboard objectives add mined_iron mined:iron_ore
 scoreboard objectives add mined_gold mined:gold_ore
 scoreboard objectives add mined_diamond mined:diamond_ore
+
+
+# begin slow tick cycle
+function villagev:slow_tick

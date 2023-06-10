@@ -1,3 +1,5 @@
+### give job
+execute as @a[tag=!hasJob] at @s run function villagev:jobs/check_job
 
 ### give UID
 execute as @a[tag=!hasUid] store result score @s uid run data get entity @s UUID[1] 
@@ -12,13 +14,13 @@ execute as @a[tag=guard] at @s run function villagev:jobs/guard/guard_tick
 #execute as @a[tag=hasUid] at @s if score @e[sort=nearest, limit=1, tag=jobTitle] owner = @s uid run tp @e[sort=nearest, limit=1, type=zombie] ~ ~2.5 ~ ~ 0
 #TODO: Spawn jobtags on class acquisition
 
-execute as @a[tag=!hasJob] at @s run function villagev:jobs/check_job
-
 ### Enforce restricitons
 execute as @a[tag=!farmer] at @s run function villagev:restrictions/farming/remove_inedible
 execute as @a[tag=!miner] at @s run function villagev:restrictions/mining/stop_ore
 execute as @a[tag=!guard] at @s run function villagev:restrictions/guarding/night_debuff
 
+### Activate magic scrolls
+execute as @e[type=item, nbt={Item:{tag:{Scroll:1b}}}] at @s if block ~ ~ ~ fire run function villagev:items/activate_scrolls 
 
 ### Reset detection scores ###
 # Keep this at the end of the tick function to avoid complications
