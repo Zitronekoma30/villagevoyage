@@ -22,6 +22,10 @@ execute as @a[tag=!guard] at @s run function villagev:restrictions/guarding/nigh
 ### Activate magic scrolls
 execute as @e[type=item, nbt={Item:{tag:{Scroll:1b}}}] at @s if block ~ ~ ~ fire run function villagev:items/activate_scrolls 
 
+## Town Outlines
+execute as @e[tag=town] at @s run tp @s ~ ~ ~ ~1 ~
+execute as @e[tag=town] at @s run particle minecraft:totem_of_undying ^50 ^ ^ 0 10 0 0 30
+
 ### Reset detection scores ###
 # Keep this at the end of the tick function to avoid complications
 # mining
