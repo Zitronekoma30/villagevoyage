@@ -12,7 +12,8 @@
           "minecraft:wheat",
           "minecraft:melon_slice",
           "minecraft:carrot",
-          "minecraft:potato"
+          "minecraft:potato",
+          "minecraft:sugar_cane"
         ]
       }
     }
