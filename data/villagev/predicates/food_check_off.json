@@ -13,7 +13,8 @@
           "minecraft:melon_slice",
           "minecraft:carrot",
           "minecraft:potato",
-          "minecraft:sugar_cane"
+          "minecraft:sugar_cane",
+          "minecrfat:white_wool"
         ]
       }
     }
