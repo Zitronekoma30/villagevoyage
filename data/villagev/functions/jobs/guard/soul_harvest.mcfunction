@@ -2,3 +2,5 @@
 execute as @e[type=skeleton, distance=..10] at @s run function villagev:jobs/guard/soul_harvest_mob
 execute as @e[type=zombie, distance=..10] at @s run function villagev:jobs/guard/soul_harvest_mob
 execute as @e[type=spider, distance=..10] at @s run function villagev:jobs/guard/soul_harvest_mob
+execute as @e[type=drowned, distance=..10] at @s run function villagev:jobs/guard/soul_harvest_mob
+execute as @e[type=creeper, distance=..10] at @s run function villagev:jobs/guard/soul_harvest_mob
