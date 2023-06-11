@@ -3,6 +3,9 @@ scoreboard objectives add uid dummy
 scoreboard objectives add owner dummy
 scoreboard objectives add town dummy
 
+# All atrributes
+scoreboard objectives add hp dummy
+
 # Using job specific items
 scoreboard objectives add usedSwordWood used:wooden_sword
 scoreboard objectives add usedSwordStone used:stone_sword

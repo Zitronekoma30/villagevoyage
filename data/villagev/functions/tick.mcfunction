@@ -26,6 +26,10 @@ execute as @e[type=item, nbt={Item:{tag:{Scroll:1b}}}] at @s if block ~ ~ ~ fire
 execute as @e[tag=town] at @s run tp @s ~ ~ ~ ~1 ~
 execute as @e[tag=town] at @s run particle minecraft:dripping_water ^50 ^ ^ 0 10 0 0 30
 
+## Set Health
+# this might be hard on performance, consider moving to slow tick
+execute as @e at @s store result score @s hp run data get entity @s Health
+
 ### Reset detection scores ###
 # Keep this at the end of the tick function to avoid complications
 # mining
