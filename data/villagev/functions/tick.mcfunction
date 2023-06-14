@@ -24,7 +24,7 @@ execute as @e[type=item, nbt={Item:{tag:{Scroll:1b}}}] at @s if block ~ ~ ~ fire
 
 ## Town Outlines
 execute as @e[tag=town] at @s run tp @s ~ ~ ~ ~1 ~
-execute as @e[tag=town] at @s run particle minecraft:dripping_water ^50 ^ ^ 0 10 0 0 30
+execute as @e[tag=town] at @s run particle minecraft:dripping_water ^100 ^ ^ 0 10 0 0 30
 
 ## Set Health
 # this might be hard on performance, consider moving to slow tick
