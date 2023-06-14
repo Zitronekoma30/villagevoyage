@@ -1,0 +1,2 @@
+## Detect if soul shard is nearby
+execute as @e[distance=..1, type=item, nbt=!{Item:{tag:{isSoul:1b}}}, nbt={Item:{id:"minecraft:amethyst_shard", Count:1b}}] at @s run function villagev:towns/consume_soul

@@ -2,6 +2,7 @@
 scoreboard objectives add uid dummy
 scoreboard objectives add owner dummy
 scoreboard objectives add town dummy
+scoreboard objectives add sp dummy
 
 # All atrributes
 scoreboard objectives add hp dummy

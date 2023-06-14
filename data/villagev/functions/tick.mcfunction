@@ -23,8 +23,7 @@ execute as @a[tag=!guard] at @s run function villagev:restrictions/guarding/nigh
 execute as @e[type=item, nbt={Item:{tag:{Scroll:1b}}}] at @s if block ~ ~ ~ fire run function villagev:items/activate_scrolls 
 
 ## Town Outlines
-execute as @e[tag=town] at @s run tp @s ~ ~ ~ ~1 ~
-execute as @e[tag=town] at @s run particle minecraft:dripping_water ^100 ^ ^ 0 10 0 0 30
+execute as @e[tag=town] at @s run function villagev:towns/town_tick
 
 ## Set Health
 # this might be hard on performance, consider moving to slow tick
