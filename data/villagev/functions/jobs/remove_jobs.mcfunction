@@ -1,3 +1,3 @@
-execute as @s run tag @s remove farmer
-execute as @s run tag @s remove miner
-execute as @s run tag @s remove guard
+execute as @s run tag @s remove vv.farmer
+execute as @s run tag @s remove vv.miner
+execute as @s run tag @s remove vv.guard

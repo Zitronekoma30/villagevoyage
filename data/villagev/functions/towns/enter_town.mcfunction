@@ -1,2 +1,2 @@
-execute as @s at @s unless score @s town = @e[type=marker, distance=..100, limit=1, sort=nearest, tag=town] town run title @s title {"selector":"@e[type=marker, distance=..100, limit=1, sort=nearest, tag=town]"} 
-execute as @s at @s run scoreboard players operation @s town = @e[type=marker, distance=..100, limit=1, sort=nearest, tag=town] town
+execute as @s at @s unless score @s vv.town = @e[type=marker, distance=..100, limit=1, sort=nearest, tag=vv.town] vv.town run title @s title {"selector":"@e[type=marker, distance=..100, limit=1, sort=nearest, tag=vv.town]"} 
+execute as @s at @s run scoreboard players operation @s vv.town = @e[type=marker, distance=..100, limit=1, sort=nearest, tag=vv.town] vv.town
